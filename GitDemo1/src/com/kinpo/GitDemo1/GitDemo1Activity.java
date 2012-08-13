@@ -14,7 +14,8 @@ public class GitDemo1Activity extends Activity {
     }
     public void doActivity(View view)
     {
-    	Intent intent = new Intent();
+    	Intent intent = new Intent(this,Second.class);
+    	startActivity(intent);
 
     }
 }
